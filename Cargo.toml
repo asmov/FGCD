@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "model",
+    "parse/macro",
+    "parse/cli",
+    "wasm"
+]
+
+[profile.release.package.fgcd-wasm]
+# Tell `rustc` to optimize for small code size.
+opt-level = "s"
