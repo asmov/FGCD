@@ -1,0 +1,13 @@
+[package]
+name = "fgcd-model"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+chrono = { version = "0.4.31", features = ["serde"] }
+itertools = "0.11.0"
+regex = "1.9.6"
+regex-macro = "0.2.0"
+serde = { version = "1.0.188", features = ["derive"] }
+strum = { version = "0.25.0", features = ["derive"] }
