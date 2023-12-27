@@ -25,7 +25,6 @@ import glob;
 PROJECT_DIR = path.realpath(path.dirname(__file__) + '/..')
 WORKSPACE_DIR = path.realpath(path.dirname(__file__) + '/../..')
 
-
 TARGET_DIR = WORKSPACE_DIR + '/target'
 GAME_DATA_DIR = PROJECT_DIR + '/games'
 PLATFORM_DATA_DIR = PROJECT_DIR + '/platforms'
