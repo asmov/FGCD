@@ -52,7 +52,8 @@ mod tests {
 
         println!("Game from binary: {:#?}", game_read);
 
-        assert_eq!(game, game_read, "Game read from spreadsheet should match binary");
+        assert_eq!(game, game_read,
+            "Game read from spreadsheet should match binary");
 
         let character = fgcd_parse::spreadsheet::game::character::read_character(
                 JOHNNY_CAGE,
@@ -72,7 +73,8 @@ mod tests {
 
         println!("Character from binary: {:#?}", character_binary);
 
-        assert_eq!(character, character_binary, "Character read from spreadsheet should match binary");
+        assert_eq!(character, character_binary,
+            "Character read from spreadsheet should match binary");
     }
 
     #[test]
