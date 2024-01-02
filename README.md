@@ -19,7 +19,7 @@ The **FGCD** project:
   + Offering FOSS libraries
   + Extending functionality to an optional online subscription-based cloud web-service (FOSS as well)
 
-The project is maintained by Asmov Hobby, a division of Asmov LLC.
+The project is maintained by [Asmov Games](https://asmov.games), a division of Asmov LLC.
 
 ## License (GPL3)
 **FGCD**: A universal user input and game mechanics language model for fighting games.
