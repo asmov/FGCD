@@ -1,11 +1,19 @@
 # FGCD (Fighting Game Community Data)
-A strategy guide and community data collection project for popular fighting games.
+A universal user input and game mechanics language model for fighting games.
+
+The **FGCD** project:
+- Establishes a standard human-readable language for representing user input across multiple products in the fighting game genre.
+- Defines a data model that the language can be parsed to and from.
+- Maintains an archive of command inputs for as many games within the genre as possible.
+- Publishes a freely available multi-platform standalone app that provides move lists for each game archived.
+- Offers an optional subscription-based cloud service that allows players to share their own non-official input combinations and strategies with others.
 
 ## Proof of Concept
-**FGCD** is a proof-of-concept project that acts as test-bed for:
+**FGCD** is a proof-of-concept project that acts as testbed for:
 - Establishing best practices in cross-platform development using [Tauri](https://github.com/tauri-apps/tauri) + [Yew](https://github.com/yewstack/yew)
 - Development of the [sheetflow](https://github.com/asmov/sheetflow) project
 - Development of the [traitenum](https://github.com/asmov/traitenum) project
+- Establishing best practices in data entry via AI [vision processing](https://platform.openai.com/docs/guides/vision)
 - Establishing best practices in publishing software using a hybrid business model:
   + Offering free and open-source (FOSS) standalone applications
   + Offering FOSS libraries
@@ -14,8 +22,8 @@ A strategy guide and community data collection project for popular fighting game
 The project is maintained by Asmov Hobby, a division of Asmov LLC.
 
 ## License (GPL3)
-**FGCD**: A strategy guide & data collection project for fighting games  
-Copyright (C) 2023 [Asmov LLC](https://asmov.software)
+**FGCD**: A universal user input and game mechanics language model for fighting games.
+Copyright (C) 2023-2024 [Asmov LLC](https://asmov.software)
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

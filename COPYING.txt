@@ -1,5 +1,5 @@
-FGCD: Strategy guide & data collection for fighting games
-Copyright (C) 2023 Asmov LLC
+FGCD: A universal user input and game mechanics language model for fighting games.
+Copyright (C) 2023-2024 Asmov LLC
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
